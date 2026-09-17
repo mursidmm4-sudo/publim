@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mursid4D - tambankm20slot</title>
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box;font-family:'Segoe UI',sans-serif;}
+        :root{
+            --bg-dark:#0a0b1a;
+            --blue-neon:#00d4ff;
+            --purple-neon:#a855f7;
+            --card-bg:#12142b;
+            --text-light:#e0e0ff;
+        }
+        body{background:var(--bg-dark);color:var(--text-light);line-height:1.6;}
+        header{background:linear-gradient(90deg,#0f1033,#1a1b4d);padding:1rem 5%;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid rgba(0,212,255,0.2);}
+        .logo{font-size:1.8rem;font-weight:bold;background:linear-gradient(90deg,var(--blue-neon),var(--purple-neon));-webkit-background-clip:text;color:transparent;}
+        nav a{color:var(--text-light);margin:0 0.8rem;text-decoration:none;transition:color 0.3s;}
+        nav a:hover{color:var(--blue-neon);text-shadow:0 0 8px var(--blue-neon);}
+        .btn{background:linear-gradient(90deg,var(--blue-neon),var(--purple-neon));padding:0.6rem 1.5rem;border-radius:6px;color:white;border:none;cursor:pointer;font-weight:bold;transition:transform 0.2s;}
+        .btn:hover{transform:scale(1.05);box-shadow:0 0 15px var(--purple-neon);}
+        
+        .hero{padding:3rem 5%;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;background:radial-gradient(circle at right,#1a1b4d 0%,transparent 70%);}
+        .hero-text h1{font-size:2.8rem;line-height:1.2;margin-bottom:1rem;}
+        .hero-text h1 span{background:linear-gradient(90deg,var(--blue-neon),var(--purple-neon));-webkit-background-clip:text;color:transparent;}
+        .hero-text p{font-size:1.1rem;margin-bottom:1.5rem;opacity:0.8;}
+        
+        .nav-grid{padding:2rem 5%;display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:1rem;}
+        .nav-card{background:var(--card-bg);padding:1.2rem;border-radius:10px;text-align:center;cursor:pointer;transition:all 0.3s;border:1px solid transparent;}
+        .nav-card:hover{border-color:var(--blue-neon);box-shadow:0 0 12px rgba(0,212,255,0.3);transform:translateY(-4px);}
+        
+        .games{padding:2rem 5%;}
+        .games h2{margin-bottom:1.5rem;border-left:4px solid var(--purple-neon);padding-left:0.8rem;}
+        .game-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:1.2rem;}
+        .game-card{background:var(--card-bg);border-radius:10px;overflow:hidden;transition:transform 0.3s;}
+        .game-card:hover{transform:scale(1.03);box-shadow:0 0 15px rgba(168,85,247,0.4);}
+        .game-img{height:120px;background:linear-gradient(135deg,#2a2d63,#1a1b4d);display:flex;align-items:center;justify-content:center;font-size:2.5rem;}
+        .game-info{padding:0.8rem;}
+        .play-btn{width:100%;background:var(--purple-neon);color:white;border:none;padding:0.5rem;border-radius:5px;margin-top:0.5rem;cursor:pointer;}
+        
+        .promo{margin:2rem 5%;padding:2rem;background:linear-gradient(90deg,rgba(0,212,255,0.1),rgba(168,85,247,0.1));border-radius:12px;border:1px solid rgba(168,85,247,0.3);text-align:center;}
+        .promo h2{font-size:2rem;background:linear-gradient(90deg,var(--blue-neon),var(--purple-neon));-webkit-background-clip:text;color:transparent;margin-bottom:0.5rem;}
+        .bonus-tag{color:var(--purple-neon);font-weight:bold;font-size:1.2rem;}
+        
+        footer{text-align:center;padding:2rem;color:#666;font-size:0.9rem;}
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="logo">Mursid4D</div>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Game</a>
+        <a href="#">Slot</a>
+        <a href="#">Live Casino</a>
+        <a href="#">E-Sports</a>
+        <a href="#">Berita</a>
+        <a href="#">Promo</a>
+    </nav>
+    <button class="btn">DAFTAR / MASUK</button>
+</header>
+
+<section class="hero">
+    <div class="hero-text">
+        <p>SELAMAT DATANG DI</p>
+        <h1><span>tambankm20slot</span><br>Mursid4D</h1>
+        <p>Portal Game & Hiburan Terlengkap — main seru-seruan pakai koin virtual, tanpa transaksi uang asli!</p>
+        <button class="btn">MULAI BERMAIN →</button>
+    </div>
+    <div class="hero-img" style="width:300px;height:300px;background:radial-gradient(circle,#2a2d63,#0f1033);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:4rem;box-shadow:0 0 30px var(--purple-neon);">🎮</div>
+</section>
+
+<section class="nav-grid">
+    <div class="nav-card"><div style="font-size:1.5rem;">🎮</div><p>Game</p></div>
+    <div class="nav-card"><div style="font-size:1.5rem;">🎰</div><p>Slot</p></div>
+    <div class="nav-card"><div style="font-size:1.5rem;">🃏</div><p>Live Casino</p></div>
+    <div class="nav-card"><div style="font-size:1.5rem;">🏆</div><p>E-Sports</p></div>
+    <div class="nav-card"><div style="font-size:1.5rem;">📰</div><p>Berita</p></div>
+    <div class="nav-card"><div style="font-size:1.5rem;">🎁</div><p>Promo</p></div>
+</section>
+
+<section class="games">
+    <h2>Game Populer</h2>
+    <div class="game-grid">
+        <div class="game-card">
+            <div class="game-img">⭐</div>
+            <div class="game-info">
+                <h4>Starlight Princess</h4>
+                <button class="play-btn">Main Gratis</button>
+            </div>
+        </div>
+        <div class="game-card">
+            <div class="game-img">⚡</div>
+            <div class="game-info">
+                <h4>Gates of Olympus</h4>
+                <button class="play-btn">Main Gratis</button>
+            </div>
+        </div>
+        <div class="game-card">
+            <div class="game-img">🍬</div>
+            <div class="game-info">
+                <h4>Sweet Bonanza</h4>
+                <button class="play-btn">Main Gratis</button>
+            </div>
+        </div>
+        <div class="game-card">
+            <div class="game-img">🐉</div>
+            <div class="game-info">
+                <h4>Mahjong Ways 2</h4>
+                <button class="play-btn">Main Gratis</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="promo">
+    <h2>tambankm20slot</h2>
+    <p>Selamat datang di dunia hiburan Mursid4D!</p>
+    <p class="bonus-tag">BONUS HINGGA 100% — Pakai Koin Virtual</p>
+    <button class="btn" style="margin-top:1rem;">KLAIM SEKARANG</button>
+</section>
+
+<footer>
+    <p>© 2026 Mursid4D — Semua permainan menggunakan koin virtual. Tidak ada taruhan uang asli.</p>
+</footer>
+
+</body>
+</html>
